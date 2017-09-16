@@ -1,0 +1,65 @@
++------------------------------------------------------------------------+
+| Vim cheat scheet                                                       |
++----------------------------------+-------------------------------------+
+| Visual mode                      | Insert mode                         |
+|                                  |                                     |
+| v - visual chars                 | i - insert before cursor            |
+| V - visual lines                 | I - insert begin of line            |
+| Ctrl+v - visual blocks           | a - insert after cursor             |
+| gu - to lowercase                | A - insert end of line              |
+| gU - to uppercase                | o - insert new line down            |
+| y p d c - change visual          | O - insert new line up              |
+| I A - insert before after visual |                                     |
+| s - change all visual block      |                                     |
++----------------------------------+-------------------------------------+
+| Command mode Esc                                                       |
+|----------------------------------+-------------------------------------+
+| Moves                            | Return                              |
+| hjkl - one char < v ^ >          | u - return                          |
+| w - next word [5w]               | U - return all  line                |
+| W - next WORD                    | Ctrl + r - return return            |
+| b - prev word                    |                                     |
+| B - prev WORD                    | Command                             |
+| e - next end word                | :q - quit                           |
+| E - next end WORD                | :q! - quit no save                  |
+| 0 - first line char              | :w - write                          |
+| ^ - first line non-space char    | :wa - write all files               |
+| $ - last line char               | :cmd - bash command                 |
+| gg - up file [24gg]              | :e - open file                      |
+| G - end file                     |                                     |
+| % - next () {} []                |                                     |
+|                                  |                                     |
+| Edit                             |                                     |
+| x - delete one char              |                                     |
+| X - backspace                    |                                     |
+| d - delete [dd,d4k,d$,diw]       |                                     |
+| c - change [cc,cw,c^]            |                                     |
+| y - copy [yy,yw,y$]              |                                     |
+| p - paste after [3p]             |                                     |
+| P - paste before [5P]            |                                     |
+| r - change one char              |                                     |
+| R - change >                     |                                     |
+| s - change one char insert       |                                     |
+| J - join lines                   |                                     |
+| . - repeat command               |                                     |
+|                                  |                                     |
+| Text objects                     |                                     |
+| iw - inside word [c3iw,diw]      |                                     |
+| iW - inside WORD                 |                                     |
+| aw - inside a word               |                                     |
+| aW - inside a WORD               |                                     |
+| is - inside sentence             |                                     |
+| as - inside a sentence           |                                     |
+| ip - inside paragraph            |                                     |
+| iP - paste paragraph             |                                     |
+| i - block [(),{},[],"",'',< >]   |                                     |
+| a - a block [(),{},[],"",'',< >] |                                     |
+|                                  |                                     |
+| Search                           |                                     |
+| / - search                       |                                     |
+| ? - search                       |                                     |
+| :s/old/new/g - change            |                                     |
+| n - next match                   |                                     |
+| N - prev match                   |                                     |
+|                                  |                                     |
++----------------------------------+-------------------------------------|

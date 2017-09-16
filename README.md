@@ -1,7 +1,7 @@
 <h1>Ascii cheat sheet</h1>
 
 <ul>
-	<li><a href="#vim"></a></li>
+	<li><a href="#vim">vim</a></li>
 </ul>
 
 <pre id="vim">

@@ -1,5 +1,10 @@
-<h1>Vim cheat sheet</h1>
+<h1>Web cheat sheet</h1>
+<ul>
+	<li><a href="#vim">Vim</a></li>
+	<li><a href="#git">Git</a></li>
+</ul>
 
+<h2 id="vim">Vim</h2>
 <pre>
 +------------------------------------------------------------------------+
 | Vim cheat scheet                                                       |
@@ -65,5 +70,86 @@
 | n - next match                   |                                     |
 | N - prev match                   |                                     |
 |                                  |                                     |
-+----------------------------------+-------------------------------------|
++----------------------------------+-------------------------------------+
+</pre>
+<br>
+<h2 id="git">Git</h2>
+<pre>
++------------------------------------------------------------------------+
+| Git cheat scheet                                                       |
++------------------------------------------------------------------------+
+| Configure                                                              |
+|                                                                        |
+| git config --global user.name "xfranklin" - name in commit             |
+| git config --global user.email "mail@mail.com" - email in commit       |
++------------------------------------------------------------------------+
+| Create repository                                                      |
+|                                                                        |
+| git clone [URL] - download from repo                                   |
+| git init - creat new repo                                              |
+| git add FILE - add file to commit                                      |
+| git commit -m "Init commit" - add commit                               |
+| git status - repo status                                               |
+| git log - commit history                                               |
+| git log -p FILE - changes in file                                      |
+| git diff - show differense                                             |
+| git blame FILE - who change, what, when                                |
+| git checkout HASH - go to commit                                       |
+| git checkout master - go to master                                     |
++------------------------------------------------------------------------+
+| Return before commit                                                   |
+|                                                                        |
+| git reset HEAD FILE - stage > mod                                      |
+| git checkout FILE - mod > unmod                                        |
++------------------------------------------------------------------------+
+| Cancel commit                                                          |
+|                                                                        |
+| git revert HEAD --no-edit                                              |
++------------------------------------------------------------------------+
+| Branch                                                                 |
+|                                                                        |
+| git branch - branch list                                               |
+| git checkout -b NEWBRANCH - create branch                              |
+| git branch NEWBRANCH                                                   |
+| git checkout BRANCH - go to branch                                     |
+| git marge dev - add dev[branch] to current branch                      |
+| git rebase dev                                                         |
+| git branch -d BRANCH - delete branch                                   |
++------------------------------------------------------------------------+
+| Remote repository                                                      |
+|                                                                        |
+| git remote add origin [URL] - add link to repo                         |
+| git remote -v - show all connected repo                                |
+| git push origin NEWBRANCH - add to repo                                |
+| git fetch origin - download from repo                                  |
+| git pull origin - download and pull                                    |
++------------------------------------------------------------------------+
+| Stash                                                                  |
+|                                                                        |
+| git stash - save changes                                               |
+| git pull                                                               |
+| git stash pop                                                          |
+| git stash list - changes list                                          |
+| git stash show - last changes                                          |
+| git stash apply - apply last changes                                   |
+| git stash drop - remove last stash                                     |
+| git stash pop - apply last changes and remove                          |
+| git stash clear - remove all stash                                     |
++------------------------------------------------------------------------+
+
++------------------------------------------------------------------------+
+| Files                                                                  |
+|                                                                        |
+| untrack(new File)  unmod                mod                stage       |
+| |                  |                    |                  |           |
+| |    add file      |                    |                  |           |
+| |------------------+--------------------+----------------->|           |
+| |                  |     edit file      |                  |           |
+| |                  |------------------->|   stage file     |           |
+| |   remove file    |                    |----------------->|           |
+| |<-----------------|                    |                  |           |
+| |                  |                    |   commit file    |           |
+| |                  |<-------------------+------------------|           |
+| |                  |                    |                  |           |
++------------------------------------------------------------------------+
 </pre>

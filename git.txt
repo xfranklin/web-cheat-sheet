@@ -42,6 +42,7 @@
 | Remote repository                                                      |
 |                                                                        |
 | git remote add origin [URL] - add link to repo                         |
+| git remote -v - show all connected repo                                |
 | git push origin NEWBRANCH - add to repo                                |
 | git fetch origin - download from repo                                  |
 | git pull origin - download and pull                                    |
@@ -62,17 +63,17 @@
 +------------------------------------------------------------------------+
 | Files                                                                  |
 |                                                                        |
-| untrack(new File) unmod                mod                stage        |
-| |                 |                    |                  |            |
-| |    add file     |                    |                  |            |
-| |-----------------+--------------------+----------------->|            |
-| |                 |     edit file      |                  |            |
-| |                 |------------------->|   stage file     |            |
-| |   remove file   |                    |----------------->|            |
-| |<----------------|                    |                  |            |
-| |                 |                    |   commit file    |            |
-| |                 |<-------------------+------------------|            |
-| |                 |                    |                  |            |
+| untrack(new File)  unmod                mod                stage       |
+| |                  |                    |                  |           |
+| |    add file      |                    |                  |           |
+| |------------------+--------------------+----------------->|           |
+| |                  |     edit file      |                  |           |
+| |                  |------------------->|   stage file     |           |
+| |   remove file    |                    |----------------->|           |
+| |<-----------------|                    |                  |           |
+| |                  |                    |   commit file    |           |
+| |                  |<-------------------+------------------|           |
+| |                  |                    |                  |           |
 +------------------------------------------------------------------------+
 
 

@@ -2,6 +2,7 @@
 <ul>
 	<li><a href="#vim">Vim</a></li>
 	<li><a href="#git">Git</a></li>
+	<li><a href="#npm">Npm</a></li>
 </ul>
 
 <h2 id="vim">Vim</h2>
@@ -151,5 +152,22 @@
 | |                  |                    |   commit file    |           |
 | |                  |<-------------------+------------------|           |
 | |                  |                    |                  |           |
++------------------------------------------------------------------------+
+</pre>
+<br>
+<h2 id="npm">Npm</h2>
+<pre>
++------------------------------------------------------------------------+
+| Npm cheat scheet                                                       |
++------------------------------------------------------------------------+
+|                                                                        |
+| npm install - install from package.json                                |
+| npm install [package] - install package local                          |
+| npm install -g [package] - insatall package global                     |
+| npm init - create package.json                                         |
+| npm update - update local package.json                                 |
+| npm unninstall [package] - remove package                              |
+| npm unninstall -g [package] - remove global package                    |
+| npm list - packages list                                               |
 +------------------------------------------------------------------------+
 </pre>

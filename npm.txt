@@ -1,0 +1,13 @@
++------------------------------------------------------------------------+
+| Npm cheat scheet                                                       |
++------------------------------------------------------------------------+
+|                                                                        |
+| npm install - install from package.json                                |
+| npm install [package] - install package local                          |
+| npm install -g [package] - insatall package global                     |
+| npm init - create package.json                                         |
+| npm update - update local package.json                                 |
+| npm unninstall [package] - remove package                              |
+| npm unninstall -g [package] - remove global package                    |
+| npm list - packages list                                               |
++------------------------------------------------------------------------+

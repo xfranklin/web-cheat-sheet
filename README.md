@@ -164,6 +164,8 @@
 | npm install - install from package.json                                |
 | npm install [package] - install package local                          |
 | npm install -g [package] - insatall package global                     |
+| npm install [package] --save - install package and update package.json |
+| npm install [package] --save-dev - install and update package.json dev |
 | npm init - create package.json                                         |
 | npm update - update local package.json                                 |
 | npm unninstall [package] - remove package                              |

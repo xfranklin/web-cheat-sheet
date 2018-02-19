@@ -97,6 +97,8 @@
 | git blame FILE - who change, what, when                                |
 | git checkout HASH - go to commit                                       |
 | git checkout master - go to master                                     |
+| git rm -r FILE - remove FILE from git and local                        |
+| git rm -r --cached FILE - remove from git                              |
 +------------------------------------------------------------------------+
 | Return before commit                                                   |
 |                                                                        |

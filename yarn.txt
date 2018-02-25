@@ -1,0 +1,14 @@
++------------------------------------------------------------------------+
+| Yarn cheat scheet                                                      |
++------------------------------------------------------------------------+
+|                                                                        |
+| yarn init - create package.json                                        |
+| yarn - install from package.json                                       |
+| yarn add [PACKAGE] - install [PACKAGE] saved package.json              |
+| yarn add [PACKAGE] --dev - install [PACKAGE] saved package.json        |
+| yarn global add [PACKAGE] - install global [PACKAGE]                   |
+| yarn remove [PACKAGE] - remove [PACKAGE]                               |
+| yarn global remove [PACKAGE] - remove [PACKAGE] global                 |
+| yarn upgrade [PACKAGE] - upgrade [PACKAGE]                             |
+| yarn list --depth=0 - packages list                                    |
++------------------------------------------------------------------------+

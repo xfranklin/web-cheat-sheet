@@ -2,14 +2,14 @@
 | Npm cheat scheet                                                       |
 +------------------------------------------------------------------------+
 |                                                                        |
-| npm install - install from package.json                                |
-| npm install [package] - install package local                          |
-| npm install -g [package] - insatall package global                     |
-| npm install [package] --save - install package and update package.json |
-| npm install [package] --save-dev - install and update package.json dev |
 | npm init - create package.json                                         |
+| npm install - install from package.json                                |
+| npm install [PACKAGE] - install [PACKAGE] local                        |
+| npm install -g [PACKAGE] - insatall [PACKAGE] global                   |
+| npm install [PACKAGE] --save - install [PACKAGE] saved package.json    |
+| npm install [PACKAGE] --save-dev - install [PACKAGE] saved package.json|
+| npm unninstall [PACKAGE] - remove [PACKAGE]                            |
+| npm unninstall -g [PACKAGE] - remove [PACKAGE] global                  |
 | npm update - update local package.json                                 |
-| npm unninstall [package] - remove package                              |
-| npm unninstall -g [package] - remove global package                    |
-| npm list - packages list                                               |
+| npm list --depth=0 - packages list                                     |
 +------------------------------------------------------------------------+

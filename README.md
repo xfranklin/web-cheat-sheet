@@ -3,6 +3,7 @@
 	<li><a href="#vim">Vim</a></li>
 	<li><a href="#git">Git</a></li>
 	<li><a href="#npm">Npm</a></li>
+	<li><a href="#yarn">Yarn</a></li>
 </ul>
 
 <h2 id="vim">Vim</h2>
@@ -163,15 +164,33 @@
 | Npm cheat scheet                                                       |
 +------------------------------------------------------------------------+
 |                                                                        |
-| npm install - install from package.json                                |
-| npm install [package] - install package local                          |
-| npm install -g [package] - insatall package global                     |
-| npm install [package] --save - install package and update package.json |
-| npm install [package] --save-dev - install and update package.json dev |
 | npm init - create package.json                                         |
+| npm install - install from package.json                                |
+| npm install [PACKAGE] - install [PACKAGE] local                        |
+| npm install -g [PACKAGE] - insatall [PACKAGE] global                   |
+| npm install [PACKAGE] --save - install [PACKAGE] saved package.json    |
+| npm install [PACKAGE] --save-dev - install [PACKAGE] saved package.json|
+| npm unninstall [PACKAGE] - remove [PACKAGE]                            |
+| npm unninstall -g [PACKAGE] - remove [PACKAGE] global                  |
 | npm update - update local package.json                                 |
-| npm unninstall [package] - remove package                              |
-| npm unninstall -g [package] - remove global package                    |
-| npm list - packages list                                               |
+| npm list --depth=0 - packages list                                     |
++------------------------------------------------------------------------+
+</pre>
+<br>
+<h2 id="yarn">Yarn</h2>
+<pre>
++------------------------------------------------------------------------+
+| Yarn cheat scheet                                                      |
++------------------------------------------------------------------------+
+|                                                                        |
+| yarn init - create package.json                                        |
+| yarn - install from package.json                                       |
+| yarn add [PACKAGE] - install [PACKAGE] saved package.json              |
+| yarn add [PACKAGE] --dev - install [PACKAGE] saved package.json        |
+| yarn global add [PACKAGE] - install global [PACKAGE]                   |
+| yarn remove [PACKAGE] - remove [PACKAGE]                               |
+| yarn global remove [PACKAGE] - remove [PACKAGE] global                 |
+| yarn upgrade [PACKAGE] - upgrade [PACKAGE]                             |
+| yarn list --depth=0 - packages list                                    |
 +------------------------------------------------------------------------+
 </pre>

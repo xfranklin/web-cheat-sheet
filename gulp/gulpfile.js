@@ -8,6 +8,7 @@ var shorthand = require('gulp-shorthand');
 var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 var tiny = require('gulp-tinypng-nokey');
+var plumber = require('gulp-plumber');
 
 //config 
 var path = {
@@ -68,6 +69,7 @@ gulp.task('style:build', function(){
 gulp.task('style:src', function(){
 	gulp.src(path.src.sass)
 		.pipe(sourcemaps.init())
+		.pipe(plumber())
 		.pipe(sass())
 		.pipe(autoprefixer({
 			browsers: ['last 10 versions']

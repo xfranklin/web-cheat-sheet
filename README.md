@@ -84,6 +84,7 @@
 |                                                                        |
 | git config --global user.name "xfranklin" - name in commit             |
 | git config --global user.email "mail@mail.com" - email in commit       |
+| git config --list - configs list                                       |
 +------------------------------------------------------------------------+
 | Create repository                                                      |
 |                                                                        |

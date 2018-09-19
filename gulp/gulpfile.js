@@ -31,6 +31,7 @@ var path = {
 	watch: {
 		html: 'src/*.html',
 		js: 'src/js/*.js',
+		css: 'src/css/*.css',
 		sass: 'src/sass/*.sass'
 	}
 };
@@ -96,8 +97,9 @@ gulp.task('fonts:build', function() {
 
 //watcher
 gulp.task('watch', function(){
-	gulp.watch(path.watch.html, browserSync.reload);
+	gulp.watch(path.watch.html, browserSync.reload)
 	gulp.watch(path.watch.js, browserSync.reload)
+	gulp.watch(path.watch.css, browserSync.reload)
 	gulp.watch(path.watch.sass,['style:src']);
 });
 

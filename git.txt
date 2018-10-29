@@ -37,7 +37,7 @@
 | git checkout -b NEWBRANCH - create branch                              |
 | git branch NEWBRANCH                                                   |
 | git checkout BRANCH - go to branch                                     |
-| git marge dev - add dev[branch] to current branch                      |
+| git merge dev - add dev[branch] to current branch                      |
 | git rebase dev                                                         |
 | git branch -d BRANCH - delete branch                                   |
 +------------------------------------------------------------------------+

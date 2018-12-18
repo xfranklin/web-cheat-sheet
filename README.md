@@ -4,6 +4,7 @@
 	<li><a href="#git">Git</a></li>
 	<li><a href="#npm">Npm</a></li>
 	<li><a href="#yarn">Yarn</a></li>
+	<li><a href="#tmux">Tmux</a></li>
 </ul>
 
 <h2 id="vim">Vim</h2>
@@ -193,5 +194,36 @@
 | yarn global remove [PACKAGE] - remove [PACKAGE] global                 |
 | yarn upgrade [PACKAGE] - upgrade [PACKAGE]                             |
 | yarn list --depth=0 - packages list                                    |
++------------------------------------------------------------------------+
+</pre>
+<br>
+<h2 id="tmux">Tmux</h2>
+<pre>
++------------------------------------------------------------------------+
+| Tmux cheat scheet                                                      |
++------------------------------------------------------------------------+
+| Ctrl + b = <Cb>                                                        |
++------------------------------------+-----------------------------------+
+| Windows                            | Panes                             |
+|                                    |                                   |
+| <Cb> c - new window                | <Cb> " - horizontal split         |
+| <Cb> w - windows list              | <Cb> % - vertical split           |
+| <Cb> n - next window               | <Cb> [ARROWS] - move to pane      |
+| <Cb> p - previous window           | <Cb> + [ARROWS] - change pane size|
+| <Cb> [NUM] - number of window      |                                   |
+| <Cb> x - close window, pane        |                                   |
+| exit - close window, pane          |                                   |
++------------------------------------+-----------------------------------+
+| Session                                                                |
+|                                                                        |
+| tmux new -s [NAME] - create new session [NAME]                         |
+| tmux ls - session list                                                 |
+| <Cb> s - select session                                                |
+| <Cb> d - session disconnection                                         |
+| tmux detach - session disconnection                                    |
+| tmux attach - connect to last session                                  |
+| tmux attach -t [NAME] - connect to session [NAME]                      |
+| tmux kill-session -t [NAME] - close session                            |
+| tmux kill-server - close all session                                   |
 +------------------------------------------------------------------------+
 </pre>

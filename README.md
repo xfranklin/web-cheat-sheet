@@ -202,24 +202,24 @@
 +------------------------------------------------------------------------+
 | Tmux cheat scheet                                                      |
 +------------------------------------------------------------------------+
-| Ctrl + b = <Cb>                                                        |
+| Ctrl + b = &lt;Cb&gt;                                                        |
 +------------------------------------+-----------------------------------+
 | Windows                            | Panes                             |
 |                                    |                                   |
-| <Cb> c - new window                | <Cb> " - horizontal split         |
-| <Cb> w - windows list              | <Cb> % - vertical split           |
-| <Cb> n - next window               | <Cb> [ARROWS] - move to pane      |
-| <Cb> p - previous window           | <Cb> + [ARROWS] - change pane size|
-| <Cb> [NUM] - number of window      |                                   |
-| <Cb> x - close window, pane        |                                   |
+| &lt;Cb&gt; c - new window                | &lt;Cb&gt; " - horizontal split         |
+| &lt;Cb&gt; w - windows list              | &lt;Cb&gt; % - vertical split           |
+| &lt;Cb&gt; n - next window               | &lt;Cb&gt; [ARROWS] - move to pane      |
+| &lt;Cb&gt; p - previous window           | &lt;Cb&gt; + [ARROWS] - change pane size|
+| &lt;Cb&gt; [NUM] - number of window      |                                   |
+| &lt;Cb&gt; x - close window, pane        |                                   |
 | exit - close window, pane          |                                   |
 +------------------------------------+-----------------------------------+
 | Session                                                                |
 |                                                                        |
 | tmux new -s [NAME] - create new session [NAME]                         |
 | tmux ls - session list                                                 |
-| <Cb> s - select session                                                |
-| <Cb> d - session disconnection                                         |
+| &lt;Cb&gt; s - select session                                                |
+| &lt;Cb&gt; d - session disconnection                                         |
 | tmux detach - session disconnection                                    |
 | tmux attach - connect to last session                                  |
 | tmux attach -t [NAME] - connect to session [NAME]                      |

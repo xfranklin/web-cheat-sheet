@@ -85,7 +85,6 @@
 |                                                                        |
 | git config --global user.name "xfranklin" - name in commit             |
 | git config --global user.email "mail@mail.com" - email in commit       |
-| git config --list - configs list                                       |
 +------------------------------------------------------------------------+
 | Create repository                                                      |
 |                                                                        |
@@ -93,6 +92,10 @@
 | git init - creat new repo                                              |
 | git add FILE - add file to commit                                      |
 | git commit -m "Init commit" - add commit                               |
+| git commit --amend "Change commit" - change last commit message        |
+| git commit --amend - add file to last commit                           |
+| git tag -a TAG -m MESSAGE - creage tag                                 |
+| git tag -l - show tags                                                 |
 | git status - repo status                                               |
 | git log - commit history                                               |
 | git log -p FILE - changes in file                                      |
